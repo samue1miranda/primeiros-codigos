@@ -12,9 +12,10 @@ def upper_list(lista):
 		lista.append(a)
 	return lista
 
-li = ["samuel", "miranda", "carvalhais"]
-
-print(li)
-inicial_maiuscula(li)
-print(upper_list(li))
-print(li)
+def principal():
+	li = ["samuel", "miranda", "carvalhais"]
+	print(li)
+	inicial_maiuscula(li)
+	print(upper_list(li))
+	print(li)
+principal()

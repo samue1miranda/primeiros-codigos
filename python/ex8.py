@@ -2,14 +2,8 @@ def somatorio(num):
 	soma = 0
 	j = 1
 	for i in range(1, num + 1):
-		if((i%2)==0):
-			soma -= pow(i, j)
-		else:
-			soma += pow(i, j)
-		if(j<=2):
-			j += 1
-		else:
-			j = 1
+		soma = (soma - pow(i, j)) if(i%2 == 0) else (soma + pow(i, j))
+		j = (j + 1) if(j < 2) else 1
 	return soma
 
 def principal():

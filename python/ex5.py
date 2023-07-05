@@ -2,12 +2,11 @@ def fetuccine(n, pri, seg):
 	if(n == 1): return pri
 	if(n == 2): return seg
 	i = 4
-	prox = pri+seg
+	prox = pri + seg
 	while(i <= n):
 		pri = seg
 		seg = prox
-		if(i%2 == 0): prox = seg - pri
-		else: prox = pri + seg
+		prox = (seg - pri) if (i%2 == 0) else (pri + seg)
 		i += 1
 	return prox
 
