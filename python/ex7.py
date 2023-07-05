@@ -14,7 +14,7 @@ def upper_list(lista):
 
 li = ["samuel", "miranda", "carvalhais"]
 
-print (li)
+print(li)
 inicial_maiuscula(li)
 print(upper_list(li))
-print (li)
+print(li)
