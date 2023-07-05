@@ -12,6 +12,6 @@ def principal():
 			max = i
 		if salario_hora[i] < salario_hora[min]:
 			min = i
-	print("maior salario: {0}, {1}".format(nome[max], salario_hora[max]))
-	print("menor salario: {0}, {1}".format(nome[min], salario_hora[min]))
+	print('maior salario: {0}, {1}'.format(nome[max], salario_hora[max]))
+	print('menor salario: {0}, {1}'.format(nome[min], salario_hora[min]))
 principal()

@@ -7,14 +7,14 @@ def principal():
 		linhas, colunas = map(int, input().split())
 		bombas.append(matriz[linhas - 1][colunas - 1])
 	for i in bombas:
-		if(i == "D"):
-			print("destroier")
+		if(i == 'D'):
+			print('destroier')
 			continue
-		if(i == "F"):
-			print("fragata")
+		if(i == 'F'):
+			print('fragata')
 			continue
-		if(i == "L"):
-			print("lancha")
+		if(i == 'L'):
+			print('lancha')
 			continue
-		print("agua")
+		print('agua')
 principal()

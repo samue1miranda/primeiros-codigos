@@ -13,7 +13,7 @@ def upper_list(lista):
 	return lista
 
 def principal():
-	li = ["samuel", "miranda", "carvalhais"]
+	li = ['samuel', 'miranda', 'carvalhais']
 	print(li)
 	inicial_maiuscula(li)
 	print(upper_list(li))

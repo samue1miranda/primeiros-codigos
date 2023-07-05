@@ -15,7 +15,7 @@ def principal():
 	n1, n2 = map(int, input().split())
 	i = 1
 	while(i<termos):
-		print(fetuccine(i, n1, n2), end = " ")
+		print(fetuccine(i, n1, n2), end = ' ')
 		i += 1
 	print(fetuccine(termos, n1, n2))
 principal()

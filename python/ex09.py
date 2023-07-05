@@ -1,7 +1,7 @@
 def principal():
 	qtd = int(input())
 	consoantes = 1000
-	vogais = ["a", "e", "i", "o", "u", " "]
+	vogais = ['a', 'e', 'i', 'o', 'u', ' ']
 	for i in range(qtd):
 		sugestao = input()
 		cont = 0
@@ -10,5 +10,5 @@ def principal():
 				if(sugestao[j].upper() == vogais[k].upper()):
 				break
 			else:
-				cont+=1
+				cont += 1
 principal()

@@ -1,5 +1,5 @@
 def principal():
-	nomes = ["Joãozinho", "Zezinho", "Mariazinha"]
+	nomes = ['Joãozinho', 'Zezinho', 'Mariazinha']
 	matriz = lista()
 	total, obediente, rico = 0, 0, 0
 	for i in range(3):
@@ -12,6 +12,6 @@ def principal():
 			rico = soma
 			obediente = i
 		total += soma
-	print(total/3)
+	print(total / 3)
 	print(nomes[obediente], rico)
 principal()
