@@ -1,7 +1,7 @@
 def somatorio(num):
 	soma = 0
 	j = 1
-	for i in range(1, num+1):
+	for i in range(1, num + 1):
 		if((i%2)==0):
 			soma -= pow(i, j)
 		else:
@@ -18,8 +18,3 @@ def principal():
 		termos = int(input())
 	print(somatorio(termos))
 principal()
-
-
-
-
-
